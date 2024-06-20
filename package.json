@@ -1,7 +1,7 @@
 {
     "name": "@mpeyfuss/play.core",
-    "version": "1.1.0",
-    "main": "run.js",
+    "version": "1.1.1",
+    "main": "src/run.js",
     "author": "mpeyfuss",
     "license": "Apache-2.0",
     "devDependencies": {
