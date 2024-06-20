@@ -1,0 +1,18 @@
+{
+    "name": "@mpeyfuss/play.core",
+    "version": "1.1.0",
+    "main": "run.js",
+    "author": "mpeyfuss",
+    "license": "Apache-2.0",
+    "devDependencies": {
+        "rollup": "^2.47.0",
+        "terser": "^5.7.0"
+    },
+    "scripts": {
+        "build": "npx rollup -i src/run.js --format es --name play | npx terser --compress --mangle --toplevel --timings --ecma 2015 > run.min.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mpeyfuss/play.core.git"
+    }
+}

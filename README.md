@@ -1,5 +1,11 @@
 # play.core
 
+---
+
+This is a fork of https://github.com/ertdfgcvb/play.core and just intends to release as an npm package for use in a project.
+
+---
+
 Core files, example and demos of the live-code ASCII playground:  
 [play.ertdfgcvb.xyz](https://play.ertdfgcvb.xyz)
 

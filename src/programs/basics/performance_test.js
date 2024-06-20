@@ -5,7 +5,7 @@
 @desc   Vertical vs horizontal changes impact FPS
 */
 
-import { map } from '/src/modules/num.js'
+import { map } from '../../modules/num.js'
 
 export const settings = { fps : 60 }
 
